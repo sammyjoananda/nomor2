@@ -1,0 +1,33 @@
+package nomor3;
+
+/**
+ *
+ * @author PRAKTIKUM
+ */
+
+import java.io.*;
+
+public class Nomor3 {
+
+    public static void main(String[] args) throws IOException {
+        InputStreamReader key = new InputStreamReader (System.in);
+        BufferedReader input = new BufferedReader (key);
+        
+        String n;
+        int i,j,k=1;
+        
+        System.out.print("Masukkan nilai faktorial = ");
+                n=input.readLine();
+                j=Integer.parseInt(n);
+                System.out.print(j+"!= ");
+                for (i=j; i>1; i--){
+                    System.out.print(i);
+                    if(i>1)
+                        System.out.print("x");
+                        k=k*i;
+                }
+                            System.out.println(j+"!= "+k);
+                }
+                
+                
+    }
