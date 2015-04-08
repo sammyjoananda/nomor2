@@ -1,12 +1,5 @@
 package nomor3;
-
-/**
- *
- * @author PRAKTIKUM
- */
-
 import java.io.*;
-
 public class Nomor3 {
 
     public static void main(String[] args) throws IOException {
